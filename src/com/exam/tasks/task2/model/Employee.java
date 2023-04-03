@@ -19,28 +19,12 @@ public class Employee {
         this.codePosition = codePosition;
     }
 
-    public String getSurname() {
-        return surname;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getPatronymic() {
-        return patronymic;
-    }
-
     public String getCodePosition() {
         return codePosition;
     }
 
     public int getExperience() {
         return experience;
-    }
-
-    public String getNamePosition() {
-        return namePosition;
     }
 
     public void setNamePosition(String namePosition) {

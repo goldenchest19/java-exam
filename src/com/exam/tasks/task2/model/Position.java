@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Position {
-    private String positionCode;
-    private String positionName;
     private final Map<String, String> position = new HashMap<>();
 
     public Position() {

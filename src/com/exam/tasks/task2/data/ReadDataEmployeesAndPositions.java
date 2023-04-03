@@ -6,7 +6,9 @@ import com.exam.tasks.task2.model.Position;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,20 +27,6 @@ public class ReadDataEmployeesAndPositions implements ReadData {
         }
         return employees;
     }
-
-//    public Map<String, String> readPositions() throws IOException {
-//        Map<String, String> positions = new HashMap<>();
-//        Path path = Paths.get(FILE_PATH_TO_READ_POSITIONS);
-//
-//        try (Scanner scanner = new Scanner(path)) {
-//            while (scanner.hasNext()) {
-//                String line = scanner.nextLine();
-//                String[] array = line.split(";");
-//                positions.put(array[0], array[1]);
-//            }
-//        }
-//        return positions;
-//    }
 
     @Override
     public Position readPositions() throws IOException {
